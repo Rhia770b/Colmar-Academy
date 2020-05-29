@@ -1,0 +1,250 @@
+html {
+    width: 1000px
+    margin: 0;
+    background-color: white;
+}
+
+body {
+    width: 1000px;
+    margin: 0 auto;
+    background-color: rgb(162, 184, 230) 
+
+}
+
+/*Header*/
+
+header {
+    height: 64px;
+    width: 100%;
+}
+
+.title {
+   font-size: 20px;
+}
+
+.colmar-logo {
+    margin-left: 24px;
+}
+
+nav {
+    float: right;
+    position: relative;
+    bottom: 40px;
+}
+
+li {
+    font-size: 18px;
+    display: inline; 
+    margin-right: 24px;
+}
+
+.title, .logo, nav {
+    display: inline;
+}
+
+.logo {
+   position: relative;
+   top: 10px;
+}
+
+
+/*Banner*/
+
+.banner {
+    width: 100%;
+    height: auto;
+}
+
+.banner-img {
+    width: 55%;
+    height: auto;
+    margin: 32px 24px;
+    float: left;
+    position: relative;
+}
+
+.banner-info {
+    float: right;
+    width: 30%;
+    position: relative;
+    top: 110px;  
+    right: 70px;
+    text-align: center;
+}
+
+button {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    width: 200px;
+    text-align: center;
+}
+
+/*box-1*/
+
+.box-1 {
+    width: 1000px;
+    height: 450px;
+}
+
+.information {
+    width: 55%;
+    height: auto;
+    margin: 32px 24px;
+    position: relative;
+    
+}
+
+.left-side {
+    margin: 32px 24px;
+    width: 60%;
+}
+
+.right-side {
+    width: 40%;
+    float: right;
+    position: relative;
+    bottom: 530px;
+    height: auto;
+    margin-top: 23px;
+    margin-left: 24px;
+    
+}
+
+.info-pic {
+    width: 35%;
+    margin-bottom: 40px;
+}
+
+.info-right {
+    width: 65%;
+    height: 127px;
+    float: right;
+    position: relative;
+    left: 15px;
+
+}
+
+.info-pic, .info-right {
+    display: inline-block;
+}
+
+.notes, .link {
+    line-height: 5px;
+}
+
+/*Courses*/
+
+.course-heading {
+    position: relative;
+    right: 175px;
+    bottom: 10px;
+}
+
+.courses {
+    position: relative;
+    top: 640px;
+    height: 450px;
+}
+
+figure {
+    display: inline-block;
+    margin: 16px;
+}
+
+.course-pic {
+    height: auto;
+    width: 255px;
+}
+
+figcaption {
+    text-align: center;
+    border: 1px solid white;
+    background-color: white;
+}
+
+.row {
+    text-align: center;
+}
+
+/*thesis*/
+
+.thesis {
+    position: relative;
+    top: 650px;
+    width: 1000px;
+    height: 600px;
+    left: 24px;
+}
+
+.thesis-heading {
+    text-align: center;
+    position: relative;
+    top: 10px;
+    right: 30px;
+}
+
+video {
+    width: 60%;
+    height: auto;
+}
+
+.left, .right {
+    position: relative;
+    bottom: 570px;
+}
+
+.left {
+    width: 60%
+    float: left;
+}
+
+.right {
+    width: 35%;
+    float: right;
+    position: relative;
+    bottom: 990px;
+    margin-left: 24px;
+    right: 18px;
+}
+
+.thesis-pic {
+    width: 35%
+}
+
+.thesis-pic, .info-right {
+    display: inline-block;
+    margin-bottom: 40px;
+}
+
+#empire {
+    position: relative;
+    bottom: 150px;
+}
+
+.note {
+    line-height: 5px;
+}
+
+/*Footer*/
+
+footer {
+    width: 100%;
+    height: auto;
+}
+
+.copyright, .footer-nav {
+    display: inline-block;
+    position: relative;
+}
+
+.term {
+    font-size: 14px;
+    margin-right: 24px;
+    position: relative;
+    top: 35px;
+}
+
+.copyright {
+    font-size: 14px;
+    margin-left: 24px;
+}
