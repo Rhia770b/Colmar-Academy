@@ -1,21 +1,33 @@
 html {
-    width: 1000px
-    margin: 0;
-    background-color: white;
+    width: 1000px;
+    height: auto;
+    margin: 0 auto;
+    background-image: url('../images/uni.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
 }
 
 body {
     width: 1000px;
-    margin: 0 auto;
-    background-color: rgb(162, 184, 230) 
+    margin: 0;
+    height: auto;
+    background-color: rgb(182, 195, 224);
+    font-family: 'Barlow', sans-serif;
+}
 
+.background {
+    width: 100%;
+    height: auto;
 }
 
 /*Header*/
 
 header {
-    height: 64px;
+    height: 55px;
     width: 100%;
+    border-bottom: 2px solid white;
 }
 
 .title {
@@ -52,7 +64,9 @@ li {
 
 .banner {
     width: 100%;
-    height: auto;
+    height: 472px;
+    background-color:rgb(186, 199, 202);
+    border-bottom: 2px solid white;
 }
 
 .banner-img {
@@ -77,13 +91,21 @@ button {
     padding-bottom: 8px;
     width: 200px;
     text-align: center;
+    background-color: rgb(24, 27, 65);
+    color: white;
+    border-style: solid;
+    border-color: rgb(24, 27, 65);
+    border-radius: 7px;
+    font-family: 'PT Sans';
+    font-size: 16px;
 }
 
 /*box-1*/
 
 .box-1 {
     width: 1000px;
-    height: 450px;
+    height: 600px;
+    border-bottom: 2px solid white;
 }
 
 .information {
@@ -96,14 +118,17 @@ button {
 
 .left-side {
     margin: 32px 24px;
-    width: 60%;
+    width: 55%;
+    display: inline-block;
+    position: relative;
+    bottom: 30px;
 }
 
 .right-side {
     width: 40%;
     float: right;
     position: relative;
-    bottom: 530px;
+    bottom: 581px;
     height: auto;
     margin-top: 23px;
     margin-left: 24px;
@@ -132,18 +157,25 @@ button {
     line-height: 5px;
 }
 
+.link {
+    color: white;
+}
+
 /*Courses*/
 
 .course-heading {
+    width: 100%;
+    text-align: center;
+    display: inline-block;
     position: relative;
-    right: 175px;
-    bottom: 10px;
+    bottom: 520px;
 }
 
 .courses {
-    position: relative;
-    top: 640px;
-    height: 450px;
+    height: 550px;
+    background-color:rgb(186, 199, 202);
+    border-bottom: 2px solid white;
+    text-align: center;
 }
 
 figure {
@@ -154,33 +186,38 @@ figure {
 .course-pic {
     height: auto;
     width: 255px;
+    border-radius: 5px;
 }
 
 figcaption {
     text-align: center;
     border: 1px solid white;
     background-color: white;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 5px;
 }
 
 .row {
-    text-align: center;
+    display: inline-block;
+    position: relative;
+    bottom: 520px;
 }
 
 /*thesis*/
 
 .thesis {
     position: relative;
-    top: 650px;
     width: 1000px;
     height: 600px;
-    left: 24px;
+    border-bottom: 2px solid white;
 }
 
 .thesis-heading {
     text-align: center;
     position: relative;
-    top: 10px;
-    right: 30px;
+    top: 35px;
+    width: 100%;
 }
 
 video {
@@ -190,21 +227,27 @@ video {
 
 .left, .right {
     position: relative;
-    bottom: 570px;
 }
 
 .left {
     width: 60%
     float: left;
+    position: relative;
+    top: 50px;
+    margin-left: 24px;
 }
 
 .right {
     width: 35%;
     float: right;
     position: relative;
-    bottom: 990px;
     margin-left: 24px;
     right: 18px;
+    bottom: 382px;
+}
+
+.urban-text {
+    line-height: 5px;
 }
 
 .thesis-pic {
@@ -230,6 +273,7 @@ video {
 footer {
     width: 100%;
     height: auto;
+    background-color:rgb(186, 199, 202); 
 }
 
 .copyright, .footer-nav {
@@ -247,4 +291,10 @@ footer {
 .copyright {
     font-size: 14px;
     margin-left: 24px;
+}
+
+.green {
+    width: 100%;
+    height: 450px;
+    background-color:rgb(186, 199, 202);
 }
